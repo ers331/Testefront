@@ -40,7 +40,7 @@ export function Header() {
                     marginRight: '5px',
                   }}
                 />
-                <p className='nameUser'>
+               <p style={{ fontSize: '13px' }}>
                   {invited_people.name && invited_people.name}
                 </p>
               </div>

@@ -1,6 +1,6 @@
 <h2>Teste de Frontend</h2>
 
-Pagaina de teste foi criada na seguintes  linguagens HTML5, CSS3 e JavaScript, assim como também a utilização do framework React.
+Pagaina de teste foi criada na seguintes  linguagens HTML5, CSS3 e JavaScript, assim como também a utilização do framework React e utilização do Material UI v5.
 
 ![stack Overflow](https://scontent.fguj3-1.fna.fbcdn.net/v/t39.30808-6/248596339_3076471412633917_8662552801541029032_n.png?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=6L5n2lREyx8AX_IO9lH&_nc_ht=scontent.fguj3-1.fna&oh=e4d078b078d5bd258feedda192374b8b&oe=61A2491B)
 

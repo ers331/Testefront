@@ -1,0 +1,122 @@
+.btnSelect {
+  margin-left: 29.8%;
+}
+.card1514 {
+  margin-left: 5%;
+}
+
+.listcards {
+  display: flex;
+  gap: 120px;
+}
+
+.cube {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+.css-841if3-MuiButtonBase-root-MuiIconButton-root:hover,
+.css-14epr5s-MuiButtonBase-root-MuiIconButton-root {
+  background-color: #cdcdcd !important;
+}
+/* botões do menu */
+.delete {
+  color: brown !important;
+  background-color: rgba(183, 69, 91, 0.475);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.edit {
+  color: darkblue;
+  background-color: rgba(100, 148, 237, 0.612);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.eye {
+  color: rgb(9, 150, 77);
+  background-color: rgba(0, 255, 255, 0.612);
+  margin-right: 5px;
+  border-radius: 50%;
+}
+/*  */
+/* Responsividade */
+
+@media screen and (max-width: 915px) {
+  .listcards {
+    flex-direction: column !important;
+  }
+  .cube {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+  .btnMore {
+    margin: 0 !important;
+    margin-left: 45% !important;
+    margin-bottom: 1rem !important;
+  }
+  .css-qfz70r-MuiFormGroup-root {
+    flex-direction: column !important;
+  }
+  .css-d0u7oh-MuiPaper-root-MuiCard-root,
+  .card1514 {
+    margin-left: 0 !important;
+  }
+
+  .content-text {
+    margin-left: 25px;
+  }
+  .css-19vcci8-MuiCardContent-root {
+    width: 90% !important;
+    margin-top: -120px !important;
+  }
+  /* quadro de gestão */
+  .css-1c3eehy-MuiPaper-root-MuiCard-root,
+  .css-1yq1jd2-MuiPaper-root-MuiCard-root {
+    display: none;
+  }
+}
+/*  */
+@media screen and (max-width: 1250px) {
+  .listcards {
+    flex-direction: column !important;
+  }
+  .cube {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+  .css-qfz70r-MuiFormGroup-root {
+    flex-direction: column !important;
+  }
+  .css-d0u7oh-MuiPaper-root-MuiCard-root,
+  .card1514 {
+    margin-left: 0 !important;
+  }
+  .title-content {
+    margin-left: 0 !important;
+  }
+  .content-text {
+    margin-left: 25px;
+  }
+  .btnMore {
+    margin-left: 45% !important;
+    margin-bottom: 15px !important;
+  }
+}
+/* Monitores maiores */
+@media screen and (min-width: 1600px) {
+  .btnSelect {
+    margin-left: 23% !important;
+  }
+  .tile_Button {
+    margin-left: 1.5%;
+  }
+}
+/* celulares pequeno */
+@media screen and (max-width: 635px) {
+  .btnSelect {
+    margin-top: 15px;
+  }
+}
